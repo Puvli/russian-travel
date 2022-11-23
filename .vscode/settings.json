@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "telemetry.telemetryLevel": "off",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.mount": [],
+    "git.autofetch": true
+}
