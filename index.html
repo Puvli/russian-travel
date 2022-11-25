@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="pages/index.css" />
-    <title>russian-travel</title>
+    <title>путешествие по России</title>
   </head>
   <body class="page">
     <header class="header">
       <img src="images/header-logo.svg" alt="Россия" class="header__logo" />
-      <section class="header__lang-link">
-        <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-        <a class="header__lang-link header__lang-link_en" href="#">En</a>
-      </section>
+      <div class="header__lang-link">
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
+      </div>
     </header>
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">
+        <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
-        </h2>
+        </p>
         <img
           src="images/lead-polka.jpg"
           alt="Девушка в поезде"
@@ -42,11 +42,11 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span>11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span>12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span>16</span></li>
+          <li>Природных заповедников <span>105</span></li>
+          <li>Аэропортов <span>241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -112,7 +112,7 @@
         />
       </section>
       <section class="places">
-        <section class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img
             src="images/place-kosa.jpg"
@@ -128,7 +128,7 @@
               >park-kosa.ru</a
             >
           </section>
-          <section class="place__paragraphs">
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и
@@ -143,16 +143,16 @@
               исключает суету, окуная в спокойствие природы и запах стального,
               прохладного моря.
             </p>
-          </section>
-        </section>
-        <section class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img
             src="images/place-kolsky.jpg"
             alt="полуостров Кольский"
             class="place__image"
           />
-          <section class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               class="place__website place__website_link"
@@ -160,8 +160,8 @@
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               >National Geographic</a
             >
-          </section>
-          <section class="place__paragraphs">
+          </div>
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
               тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -176,12 +176,12 @@
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.
             </p>
-          </section>
-        </section>
-        <section class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img src="images/place-altai.jpg" alt="Алтай" class="place__image" />
-          <section class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               class="place__website place__website_link"
@@ -189,8 +189,8 @@
               target="_blank"
               >Facebook</a
             >
-          </section>
-          <section class="place__paragraphs">
+          </div>
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
               гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -204,16 +204,16 @@
               Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
-          </section>
-        </section>
-        <section class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img
             src="images/place-winter-baikal.jpg"
             alt="Зимний Байкал"
             class="place__image"
           />
-          <section class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               target="_blank"
@@ -221,8 +221,8 @@
               href="https://vk.com/baikalmile"
               >https://vk.com/baikalmile</a
             >
-          </section>
-          <section class="place__paragraphs">
+          </div>
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
               знают, что это самый большой источник пресной воды и одно из
@@ -235,16 +235,16 @@
               бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
-          </section>
-        </section>
-        <section class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img
             src="images/place-karelia.jpg"
             alt="полуостров Кольский"
             class="place__image"
           />
-          <section class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               class="place__website place__website_link"
@@ -252,8 +252,8 @@
               href="http://vodlozero.ru"
               >http://vodlozero.ru/</a
             >
-          </section>
-          <section class="place__paragraphs">
+          </div>
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -265,8 +265,8 @@
               редких тропинках деревья в паре метров от земли помечены
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
-          </section>
-        </section>
+          </div>
+        </article>
       </section>
       <section class="cover">
         <a
@@ -274,13 +274,11 @@
           target="_blank"
           class="cover__overlay"
         >
-          <section class="cover__image">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </section>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
         </a>
       </section>
     </main>

@@ -1,12 +1,12 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px 25px;
+  gap: 50px 41px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    gap: 48px 40px;
+    gap: 48px 31px;
   }
 }
 

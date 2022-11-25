@@ -4,7 +4,8 @@
   font-size: 14px;
   line-height: 16px;
   text-align: right;
-  width: 186px;
+  max-width: 186px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -18,10 +19,10 @@
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 4.5vw;
+    line-height: 100%;
     text-align: left;
-    padding-top: 45px;
-    width: 80%;
+    padding-top: 49px;
+    width: 100%;
   }
 }

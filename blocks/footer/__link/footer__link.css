@@ -9,18 +9,14 @@
 
 @media screen and (max-width: 768px) {
   .footer__link {
-    font-style: normal;
-    font-weight: 400;
     font-size: 2vw;
     line-height: 100%;
-    text-decoration: none;
-    color: white;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__link {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 7.5vw;
+    line-height: 100%;
   }
 }

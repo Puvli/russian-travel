@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin: 0 0 32px 13%;
+    margin: 0 13% 19px;
     max-width: 75%;
     font-size: 10vw;
   }
@@ -19,20 +19,21 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    margin: 0 0 0 6vw;
-    width: 100%;
-    font-size: 12vw;
-    line-height: 98%;
+    margin: 0px 14vw 0;
+    max-width: 100%;
+    font-size: 12.6vw;
     margin-bottom: 32px;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
     width: 90%;
-    font-size: 40px;
-    line-height: 44px;
-    margin-bottom: 12px;
+    font-size: 12.6vw;
+    line-height: 14vw;
+    margin: 0 5% 12px;
   }
 }

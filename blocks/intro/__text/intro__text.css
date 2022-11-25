@@ -6,14 +6,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro__text {
-    line-height: 163%;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .intro__text {
-    width: 288px;
+    width: 95%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 163%;
+    margin: 0;
   }
 }

@@ -1,31 +1,16 @@
 .cover {
-  height: 100vh;
-  width: 77vw;
   margin: 0 3.75% 100px;
-  position: relative;
-  color: #ffffff;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    margin: 0 0 111px 0;
-    width: 100%;
+    margin: 0 0 92px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100%;
-    margin-bottom: 17px;
-    height: 78vh;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    background-size: 100% 200px;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 64px;
+    margin: 0 0 60px 0;
   }
 }
