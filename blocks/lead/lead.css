@@ -1,0 +1,28 @@
+.lead {
+  text-align: center;
+  color: white;
+  width: 76%;
+  margin: 56px 12% 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 90%;
+    margin: 48px 5% 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+    margin: 48px 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 320px;
+    height: 406px;
+    margin-bottom: 59px;
+  }
+}
