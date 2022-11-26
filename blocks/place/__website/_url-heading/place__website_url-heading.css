@@ -19,6 +19,7 @@
 @media screen and (max-width: 320px) {
   .place__website_url-heading {
     font-size: 4vw;
+    padding-bottom: 11px;
   }
   
 }
