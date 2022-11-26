@@ -2,9 +2,17 @@
   color: white;
   display: flex;
   width: 100%;
-  margin: 28px auto 0;
+  margin: 29px auto 0;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 95%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    width: 93%;
+  }
 }
 
 @media screen and (max-width: 768px) {

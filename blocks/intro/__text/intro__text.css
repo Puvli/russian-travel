@@ -2,17 +2,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 162%;
   margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
     width: 95%;
-    font-style: normal;
-    font-weight: 400;
     font-size: 5vw;
-    line-height: 163%;
-    margin: 0;
   }
 }

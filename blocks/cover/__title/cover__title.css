@@ -1,15 +1,15 @@
 .cover__title {
-  z-index: 2;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 5vw;
-  line-height: 76px;
-  text-align: center;
-  width: 100%;
-  max-width: 36vw;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    width: 50%;
+    max-width: 45%;
+    position: relative;
+    z-index: 2;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {

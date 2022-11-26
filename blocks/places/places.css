@@ -3,13 +3,14 @@
   max-width: 85%;
   margin: 92px 11.7% 92px;
   display: grid;
-  gap: 80px;
+  gap: 77px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: 90%;
-    margin: 92px 5% 92px;
+    width: 100%;
+    margin: 92px auto 92px;
+    max-width: 928px;
   }
 }
 

@@ -9,6 +9,10 @@
   line-height: 22px;
 }
 
+.place__website_link:hover {
+  opacity: .4;
+}
+
 @media screen and (max-width: 768px) {
   .place__website_link {
     font-size: 2.3vw;

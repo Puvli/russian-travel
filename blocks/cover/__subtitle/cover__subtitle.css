@@ -11,6 +11,8 @@
   margin: 0 auto;
   position: relative;
   z-index: 2;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,8 +20,6 @@
     width: 100%;
     font-size: 1.8vw;
     max-width: 36vw;
-    padding: 0;
-    margin: 0;
   }
 }
 
