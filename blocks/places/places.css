@@ -16,8 +16,9 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    margin: 84px 3% 92px 3%;
-    gap: 73px;
+    margin-top: 84px;
+    gap: 76px;
+    max-width: 720px;
   }
 }
 
@@ -27,6 +28,5 @@
     margin: 69px 0 65px;
     padding: 0;
     gap: 57px;
-    width: 100%;
   }
 }

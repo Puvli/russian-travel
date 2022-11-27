@@ -1,13 +1,12 @@
 .header__lang-links {
-    padding-bottom: 5px;
-    padding-right: 14px;
-    display: flex;
-    justify-content: space-between;
+  padding-bottom: 5px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
-    .header__lang-links {
-        padding-right: 0;
-    }
-    
+  .header__lang-links {
+    padding-right: 0;
+  }
 }

@@ -17,14 +17,15 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 90%;
+    width: 94%;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    max-width: 54vw;
-    margin: 0 3% 16px;
+    max-width: 60%;
+    margin: 0 0 24px 5%;
     flex-direction: column;
     width: 100%;
   }

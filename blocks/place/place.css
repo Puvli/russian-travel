@@ -6,13 +6,13 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    gap: 48px 15px;
+    gap: 51px 15px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    gap: 52px 4vw;
+    gap: 46px 16px;
   }
 }
 

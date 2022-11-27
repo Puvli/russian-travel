@@ -21,20 +21,22 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    margin: 0px 0vw 0;
-    font-size: 12.6vw;
-    margin: 120px 0 0 0;
+    margin: 0px 0vw 0; 
+    margin: 0 auto 34px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-  }
+    max-width: 720px;
+    font-size: 12.5vw;
 }
+  }
+
 
 @media screen and (max-width: 320px) {
   .lead__title {
     line-height: 14vw;
-    margin: 0 5% 12px;
-    width: 92%;
+    margin: 0 auto 12px;
+    max-width: 288px;
   }
 }
