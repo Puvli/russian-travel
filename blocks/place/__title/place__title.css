@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 78px;
   margin: 0;
   padding: 0;
   grid-column: 1/2;
@@ -12,20 +12,24 @@
   align-items: end;
 }
 
+@media screen and (max-width: 1024px) {
+  .place__title {
+  line-height: 79px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place__title {
-    width: 94%;
     font-size: 42px;
-    line-height: 47px;
-    max-width: 340px;
+    line-height: 45px;
+    max-width: 329px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
-    width: 90%;
     font-size: 10vw;
     line-height: 75%;
-    margin: 0 auto 0;
+    margin: 0 0 0 15px;
   }
 }

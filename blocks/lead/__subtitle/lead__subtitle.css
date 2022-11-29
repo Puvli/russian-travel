@@ -6,8 +6,6 @@
   text-align: center;
   width: 52%;
   margin: 0 auto 64px;
-  padding: 0;
-  padding-right: 2%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +20,6 @@
   .lead__subtitle {
     font-size: 4vw;
     width: 67%;
-    display: flex;
     line-height: 115%;
   }
 }
@@ -32,7 +29,6 @@
     font-size: 5vw;
     line-height: 7vw;
     max-width: 100%;
-    display: flex;
     margin: 0 auto 39px;
     width: 90vw;
   }

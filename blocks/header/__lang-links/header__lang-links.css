@@ -3,10 +3,17 @@
   padding-right: 14px;
   display: flex;
   justify-content: space-between;
+  gap: 17px;
 }
 
 @media screen and (max-width: 1024px) {
   .header__lang-links {
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    padding-bottom: 13px;
   }
 }

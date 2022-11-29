@@ -7,7 +7,6 @@
   padding: 0;
   margin: 0 auto 32px;
   text-align: center;
-  padding-right: 2%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,7 +14,6 @@
     margin: 0 auto 33px;
     max-width: 720px;
     width: 100%;
-    padding-right: 0;
   }
 }
 
@@ -23,11 +21,6 @@
   .lead__title {
     margin: 0px 0vw 0; 
     margin: 0 auto 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 720px;
     font-size: 12.5vw;
 }
   }

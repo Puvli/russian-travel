@@ -2,7 +2,8 @@
   text-align: center;
   color: white;
   width: 78%;
-  margin: 56px 12% 92px;
+  max-width: 984px;
+  margin: 56px auto 92px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,8 +11,9 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 90%;
-    margin: 48px 5% 92px;
+    max-width: 928px;
+    width: 100%;
+    margin: 48px auto 92px;
   }
 }
 
@@ -24,7 +26,6 @@
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin-bottom: 59px;
     margin: 42px 0 64px 0;
     max-width: 100%;
   }

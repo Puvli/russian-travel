@@ -1,9 +1,9 @@
 .place__paragraph {
-  max-width: 100%;
+  max-width: 484px;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4vw;
-  line-height: 160%;
+  font-size: 18px;
+  line-height: 163%;
   margin: 0;
   grid-column: 2/3;
   padding: 0;
@@ -18,14 +18,15 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    font-size: 2vw;
+    font-size: 2.083vw;
+    line-height: 163%;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     width: 88%;
-    font-size: 16px;
     margin: 0 auto 0;
     font-size: 5vw;
     line-height: 162%;

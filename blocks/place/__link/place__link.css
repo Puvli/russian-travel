@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 320px) {
   .place__link {
-    font-size: 6vw;
+    font-size: 18px;
+    line-height: 22px;
   }
 }

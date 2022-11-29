@@ -8,6 +8,10 @@
   text-align: end;
 }
 
+.header__lang-link::before {
+  text-decoration: underline;
+}
+
 .header__lang-link:hover {
   opacity: 0.4;
 }
@@ -16,10 +20,5 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-    width: 20%;
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-    padding: 0 8px;
   }
 }
