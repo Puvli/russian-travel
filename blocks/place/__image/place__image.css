@@ -3,6 +3,7 @@
   height: 460px;
   grid-column: 1/2;
   grid-row: 2/3;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {

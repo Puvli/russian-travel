@@ -6,9 +6,3 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-
-@media screen and (max-width: 768px) {
-  .place__paragraphs {
-    row-gap: 26px;
-  }
-}
